@@ -1,0 +1,107 @@
+.gradient-bg{
+    background: linear-gradient(135deg, #BADFDB 0%, #fad0c4 100%);
+
+}
+
+span.name{
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:#435B66;
+}
+
+
+.profile{
+    text-align: center;
+    /* Remove the default top gap and override Bootstrap's py-5 */
+    margin-top: 0;
+    padding-top: 0; /* overrides .py-5 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* Keep the about section narrow so text wraps */
+    max-width: 640px;
+    width: 90%; /* responsive on small screens */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem 1.5rem; /* keep some bottom spacing */
+}
+
+/* Improve intro text wrapping and readability */
+.intro{
+    line-height: 1.6;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+
+
+
+h1{
+    margin: 0;
+    font-family: cursive;
+
+}
+
+
+button[type="button"]{
+    background-color: #EAB2A0;
+    border: none;
+}
+
+button[type="button"]:hover{
+    background-color: #D99886;
+    cursor: pointer;
+}
+
+.skills{
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #FBEFEF;
+}
+
+.projects{
+    background-color: #F5D2D2;
+}
+
+.websites{
+    background-color: #d9edf1
+}
+
+form{
+    max-width: fit-content;
+    margin: auto;
+    padding: 20px;
+    
+    
+}
+
+
+
+#two, #one{
+    background-color: #BADFDB;
+    border: none;
+
+}
+#two:hover{
+    background-color: #9ACCC2;
+    cursor: pointer;
+}
+#one:hover{
+    background-color: #9ACCC2;
+    cursor: pointer;
+}
+
+.btn{
+    box-shadow: 2px 2px 5px rgba(0, 0.2, 0.2, 0.2);
+}
