@@ -70,13 +70,15 @@ button[type="button"]:hover{
 }
 
 .skills{
-    padding: 20px;
+    margin: 0;
+    padding: 12px 0 32px; /* increased bottom padding for more gap below skills */
     background-color: #FBEFEF;
 }
 
 .projects{
-margin-top: 50px;
-}
+    margin: 0;
+    padding: 12px 0;
+} 
 
 
 .projects .container{
@@ -85,13 +87,13 @@ margin-top: 50px;
     justify-content: center;
     align-items: flex-start; /* align card tops */
     flex-wrap: wrap; /* allow wrapping on narrow screens */
-    padding: 1.5rem 0; /* vertical spacing inside the projects section */    
+    padding: 0.5rem 0; /* reduced vertical spacing inside the projects section */    
 }
 
 .card-body{
     box-shadow: 2px 2px 5px rgba(0, 0.1, 0.1, 0.1);
     
-    background: #f3eaf0;
+    background: #f0ecef;
 }
 
 .card-body{
@@ -143,9 +145,14 @@ form{
 .btn{
     box-shadow: 2px 2px 5px rgba(0, 0.1, 0.1, 0.1);
 }
-
+/* Remove default heading vertical margins so adjacent sections sit flush */
+.skills h3, .projects h3, .contact h3 {
+    margin: 0;
+    padding: 10px 0;
+}
 .contact{
-    margin-top: 50px;
+    margin: 0;
+    padding: 20px 0;
     background-color: #e2f0ee;
 }
 
@@ -243,13 +250,14 @@ button[type="button"]:hover{
 }
 
 .skills{
-    margin-top: 30px;
-    padding: 20px;
-    border: 1px solid #ccc;
+    margin: 0;
+    padding: 12px 0 32px; /* increased bottom padding for more gap below skills */
     background-color: #FBEFEF;
 }
 
 .projects{
+    margin: 0;
+    padding: 20px 0;
     background-color: #F5D2D2;
 }
 
