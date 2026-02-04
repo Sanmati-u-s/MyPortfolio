@@ -1,0 +1,179 @@
+.gradient-bg{
+    background: linear-gradient(135deg, #BADFDB 10%, #fad0c4 100%);
+
+}
+
+span.name{
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:#435B66;
+}
+
+
+.about{
+    background-color: #FCF8F8;
+}
+
+.profile{
+    text-align: center;
+    /* Remove the default top gap and override Bootstrap's py-5 */
+    margin-top: 0;
+    padding-top: 0; /* overrides .py-5 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* Keep the about section narrow so text wraps */
+    max-width: 640px;
+    width: 90%; /* responsive on small screens */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem 1.5rem; /* keep some bottom spacing */
+}
+
+/* Improve intro text wrapping and readability */
+.intro{
+    line-height: 1.6;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+
+
+
+h1{
+    margin: 0;
+    font-family: cursive;
+    color: #2D4356;
+
+}
+
+
+button[type="button"]{
+    background-color: #EAB2A0;
+    border: none;
+}
+
+button[type="button"]:hover{
+    background-color: #D99886;
+    color:#643843;
+    cursor: pointer;
+}
+
+.skills{
+    padding: 20px;
+    background-color: #FBEFEF;
+}
+
+.projects{
+margin-top: 50px;
+}
+
+
+.projects .container{
+    display: flex;
+    gap: 2rem; 
+    justify-content: center;
+    align-items: flex-start; /* align card tops */
+    flex-wrap: wrap; /* allow wrapping on narrow screens */
+    padding: 1.5rem 0; /* vertical spacing inside the projects section */    
+}
+
+.card-body{
+    box-shadow: 2px 2px 5px rgba(0, 0.1, 0.1, 0.1);
+    
+    background: #f3eaf0;
+}
+
+.card-body{
+    border: 2px solid rgb(154, 138, 164);
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+    cursor:default;
+}
+
+@media (max-width: 420px){
+  .projects .container{
+    gap: 1rem;
+    justify-content: center;
+  }
+}
+
+.websites{
+    background-color: #EECAD5;
+}
+
+form{
+    max-width: fit-content;
+    margin: auto;
+    padding: 20px;
+    
+    
+}
+
+
+
+#two, #one{
+    background-color: #dbabcb;
+    border: none;
+
+}
+#two:hover, #one:hover{
+    background-color: #9ACCC2;
+    color:#2D4356
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.btn{
+    box-shadow: 2px 2px 5px rgba(0, 0.1, 0.1, 0.1);
+}
+
+.contact{
+    margin-top: 50px;
+    background-color: #e2f0ee;
+}
+
+input[type="text"], input[type="email"]{
+    border: 2px solid #9ACCC2;
+    background-color: #f9f0f3;
+
+
+   
+}
+
+input[type="text"]:focus, input[type="email"]:focus{
+    border: 2px solid #D99886;
+    background-color: #f9f0f3;
+    box-shadow: none;
+
+}
+
+button[type="submit"]{
+    background-color: rgb(248, 182, 169);
+    border: none;
+    height: 45px;
+    color:#643843
+
+}
+
+button[type="submit"]:hover{
+    background-color: #f1a48f;
+    cursor: pointer;
+    color:#643843
+}
