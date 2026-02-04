@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # About The Website
 
 Welcome to my personal portfolio website! This project is a **Capstone Project** designed to test my frontend skills.
