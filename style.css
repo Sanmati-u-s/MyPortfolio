@@ -3,6 +3,15 @@
 
 }
 
+
+
+.card-title {
+  font-family: cursive;
+  font-weight: 650;
+  font-style: normal;
+  color: #1a897e;
+
+}
 span.name{
   font-family: "Cedarville Cursive", cursive;
   font-weight: 400;
@@ -64,7 +73,7 @@ button[type="button"]{
 }
 
 button[type="button"]:hover{
-    background-color: #D99886;
+    background-color: #efb4a4;
     color:#643843;
     cursor: pointer;
 }
@@ -85,21 +94,23 @@ button[type="button"]:hover{
     display: flex;
     gap: 2rem; 
     justify-content: center;
-    align-items: flex-start; /* align card tops */
+    align-items: flex-start; /* align  tops */
     flex-wrap: wrap; /* allow wrapping on narrow screens */
     padding: 0.5rem 0; /* reduced vertical spacing inside the projects section */    
 }
 
-.card-body{
-    box-shadow: 2px 2px 5px rgba(0, 0.1, 0.1, 0.1);
-    
-    background: #f0ecef;
-}
 
 .card-body{
-    border: 2px solid rgb(154, 138, 164);
-    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0.1, 0.1, 0.1);
+    height: 360px; /* limit card height */
+    background: #f0ecef;
+     border: 2px solid rgb(154, 138, 164);
+     border-radius: 10px;
+     padding: 50px 20px 20px; 
 }
+
+
+
 
 .card:hover{
     transform: scale(1.02);
@@ -245,7 +256,7 @@ button[type="button"]{
 }
 
 button[type="button"]:hover{
-    background-color: #D99886;
+    background-color: rgb(230, 166, 148);
     cursor: pointer;
 }
 
@@ -258,12 +269,9 @@ button[type="button"]:hover{
 .projects{
     margin: 0;
     padding: 20px 0;
-    background-color: #F5D2D2;
+    background-color: #f5ddd9;
 }
 
-.websites{
-    background-color: #d9edf1
-}
 
 form{
     max-width: fit-content;
@@ -288,4 +296,22 @@ form{
 
 .btn{
     box-shadow: 2px 2px 5px rgba(0, 0.2, 0.2, 0.2);
+}
+
+/* Hover styles for card "Visit Site" buttons */
+.card a.btn {
+    background-color: rgb(227, 140, 140); /* matches inline style */
+    color: white;
+    display: inline-block;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, background-color 0.22s ease;
+}
+.card a.btn:hover,
+.card a.btn:focus {
+    background-color: rgb(200, 110, 110);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
+    text-decoration: none;
+}
+.card a.btn:active {
+    transform: translateY(-1px);
 }
